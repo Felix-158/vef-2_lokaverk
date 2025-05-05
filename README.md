@@ -21,12 +21,3 @@ Bílaúrvalið okkar: Við bjóðum upp á breitt úrval af nýjum og notuðum b
 ## stílbragð: 
 ### litaþemi: https://colorhunt.co/palette/07195208839537b7c3ebf4f6
 ### leturval: Noto Sans
-
-
-Hugmyndavinna og efnisöflun 4%
-Lýsing á verkefnavali
-Texti og myndir sem koma til greina að nota
-Efnisyfirlit og tengirit 3%
-Site-map & Wireframe
-Stílbragð - Style tyle 3%
-Litaþema og leturval
