@@ -4,6 +4,11 @@
 ## Hugmyndavinna og efnisöflun
 ### huymyndinn er að búa til bílavörusalavefsíðu
 ### Texti og myndir
+![image](https://github.com/user-attachments/assets/139dc80d-75f4-4362-b63b-c7ecffa9c297)
+![image](https://github.com/user-attachments/assets/6f278fcd-2e27-463d-9f22-07d6f5c503b1)
+![image](https://github.com/user-attachments/assets/032f8412-7117-4735-b2ce-70c5133c40b4)
+![image](https://github.com/user-attachments/assets/46e2eb4d-0643-4861-a69a-b68745948793)
+
 
 
 ## Efnisyfirlit og tengirit:
@@ -14,7 +19,7 @@
 
 ## stílbragð: 
 ### litaþemi: https://colorhunt.co/palette/07195208839537b7c3ebf4f6
-### leturval:
+### leturval: Noto Sans
 
 
 Hugmyndavinna og efnisöflun 4%
