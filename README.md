@@ -4,6 +4,7 @@
 ## Hugmyndavinna og efnisöflun
 ### huymyndinn er að búa til bílavörusalavefsíðu
 ### Texti og myndir
+Bílaúrvalið okkar: Við bjóðum upp á breitt úrval af nýjum og notuðum bílum frá ýmsum framleiðendum. Hvort sem þú ert að leita að fjölskyldubíl, sportbíl eða sparneytnum smábíl, þá finnum við bíl sem hentar þínum þörfum og fjárhag.
 ![image](https://github.com/user-attachments/assets/139dc80d-75f4-4362-b63b-c7ecffa9c297)
 ![image](https://github.com/user-attachments/assets/6f278fcd-2e27-463d-9f22-07d6f5c503b1)
 ![image](https://github.com/user-attachments/assets/032f8412-7117-4735-b2ce-70c5133c40b4)
