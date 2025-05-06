@@ -8,7 +8,8 @@ Bílaúrvalið okkar: Við bjóðum upp á breitt úrval af nýjum og notuðum b
 ![image](https://github.com/user-attachments/assets/139dc80d-75f4-4362-b63b-c7ecffa9c297)
 ![image](https://github.com/user-attachments/assets/6f278fcd-2e27-463d-9f22-07d6f5c503b1)
 ![image](https://github.com/user-attachments/assets/46e2eb4d-0643-4861-a69a-b68745948793)
-![image](https://github.com/user-attachments/assets/2b41d434-0c09-4485-898f-7578bba41a3e)
+![image](https://github.com/user-attachments/assets/e3383a3d-a7e4-4a87-bbbd-c141806a97fc)
+
 
 
 
