@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="drawing_takn-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.39331159"
+     inkscape:cx="397.90335"
+     inkscape:cy="1033.5317"
+     inkscape:window-width="1920"
+     inkscape:window-height="1121"
+     inkscape:window-x="-7"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="315.27167"
+       y="66.105349"
+       width="1093.2808"
+       height="1314.4794"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="fill:#ff2a2a">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-size:192px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#ff2a2a;fill-opacity:0;stroke:#000000;stroke-width:0.755906" />
+    <path
+       id="text2"
+       style="font-size:352.778px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.912863;stroke:#000000;stroke-width:0.2"
+       d="M 0.09999575,0.09999647 V 59.080788 H 200.80715 V 213.8615 H 27.112907 v 58.98079 H 200.80715 v 227.05767 h 48.73549 0.24236 48.73473 V 272.84229 H 472.21398 V 213.8615 H 298.51973 V 59.080788 H 499.22764 V 0.09999647 H 249.785 249.54264 Z" />
+  </g>
+</svg>

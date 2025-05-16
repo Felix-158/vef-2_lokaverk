@@ -1,0 +1,91 @@
+.button,
+a button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	font-size: 1rem;
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	background: var(--cyan-bg);
+	color: var(--grey-bg);
+	border: 0;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+a button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+	cursor: default;
+	opacity: .5;
+	/* Set the [X] cursor while hovering a disabled link */
+	cursor: not-allowed;
+}
+
+.button:focus,
+.button:enabled:hover,
+button:focus,
+button:enabled:hover,
+input[type="submit"]:focus,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:focus,
+input[type="reset"]:enabled:hover,
+input[type="button"]:focus,
+input[type="button"]:enabled:hover {
+	background: var(--nc-lk-2);
+	/*border: 1px solid red;*/
+}
+fieldset {
+	margin-top: 1rem;
+	padding: 2rem;
+	border: 1px solid var(--nc-bg-3);
+	border-radius: 4px;
+}
+
+legend {
+	padding: auto .5rem;
+}
+textarea {
+	width: 100%;
+}
+textarea,
+select,
+input {
+	padding: 6px 12px;
+	margin-bottom: .5rem;
+	background: var(--cyan-bg);
+	color: var(--nc-tx-1);
+	border: 1px solid var(--darkblue-bg);
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border: 2px solid black; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="time"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+	width: 100%;
+}
+
+
+::-webkit-calendar-picker-indicator {
+	background-color: var(--grey-bg);
+	border-radius: 50%;
+}
+

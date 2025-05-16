@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/3.table.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/4.form.css">
+    <link rel="stylesheet" href="css/5-menues.css">
+    <link rel="stylesheet" href="css/6-iconmoon.css">
+    <link rel="stylesheet" href="css/7-kvikun.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="toplabel">&#9776;</label>
+    <section class="topmenu">
+      <a href="../verkefni-6/"><span class="icon-home"></span> Forsíðan</a>
+      <a href="#schedule"><span class="icon-calendar"></span> Dagskrá</a>
+      <a href="bílavöru.html"><span class="icon-meter"></span> Skoða bíla</a>
+      <a href="fyrirtækið.html"><span class="icon-users"></span> Fyrirtækið</a>
+      <a href="#login"><span class="icon-users"></span> Innskráning</a>
+      <div class="socialbuttons">
+          <a href="#"><span class="icon-phone"></span></a>
+          <a href="#"><span class="icon-location2"></span> </a>
+          <a href="#"><span class="icon-qrcode"></span> </a>
+          <a href="#"><span class="icon-cloud-upload"></span> </a>
+      </div>
+    </section>
+  </nav>
+  <header>
+      <section>
+        <!--<img src="images/alien-svgrepo-com.svg" class="svgLogo">-->
+        <div class="iconLogo lightSpeedInRight">
+          <span class="icon-drawing_takn-1"></span>
+        </div>
+        <h1>Buy proper cars.</h1>
+      </section>
+  </header>
+          <main class="container center">
+                  <h2>Ford Van</h2>
+                  <img src="images/Ford_van.png">
+                  <a href="#schedule" class="animate__shakeX button">Buy now</a>
+          </main>
+      </section>
+      <section class="pad_left">
+      <h1>Car Details</h1>
+      <h3>2024 Ford Tourneo Titanium X AV</h3>
+      <h4><span class="icon-key"></span>New Car</h4>
+<h4><span class="icon-meter"></span>15 km</h4>
+<h4><span class="icon-wrench"></span>Build Date: September 1, 2024</h4>
+<h4>&#36; 77800</h4>
+    </section>
+      <form action="takk.html" method="get">
+        <fieldset class="account-info">
+          <legend>Pöntunarlisti</legend>
+          <p class="form-2">
+          <label>
+            Fornafn:
+            <input type="text" name="fornafn" required placeholder="First name">
+          </label>
+          <label>
+            Eftirnafn:
+            <input type="text" name="eftirnafn" required placeholder="Last name">
+          </label>
+          <label>
+          </p>
+            <p>
+            Kyn: 
+            <label>
+            <input type="radio" name="kyn" value="Karl" required> Hann |
+          </label>
+          <label>
+            <input type="radio" name="kyn" value="Kona" required> Hún |
+          </label>
+          <label>
+            <input type="radio" name="kyn" value="Eitthvað" required> Hán 
+          </label>
+          </p>
+          <p class="form-2">
+            <label>
+              Tölvupóstur:
+              <input type="text" name="email" required placeholder="Email">
+            </label>
+            <label>
+              Símanúmer:
+              <input type="tel" name="Telephone" required placeholder="Telephone">
+            </label> 
+        </p>
+      <p>
+        <textarea name="message" id="#" rows="5" placeholder="Skrifaðu skilaboð hér ..."></textarea>
+      </p>
+      <div class="center">
+      <p>
+          <input type="submit" name="submit" value="Buy Car" class="animate__shakeY">
+      </p>
+    </div>
+        </fieldset>
+      </form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="litli_karlinn.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.7246094"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1121"
+     inkscape:window-x="-7"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#590018;fill-opacity:0.912863;stroke:#000000;stroke-width:0.755906"
+       id="path1"
+       cx="247.5923"
+       cy="117.70782"
+       rx="40.00906"
+       ry="38.269535" />
+    <rect
+       style="fill:#590018;fill-opacity:0.912863;stroke:#000000;stroke-width:0.755906"
+       id="rect1"
+       width="80.774025"
+       height="115.38845"
+       x="207.20529"
+       y="173.95244" />
+    <rect
+       style="fill:#590018;fill-opacity:0.912863;stroke:#000000;stroke-width:0.755906"
+       id="rect2"
+       width="106.11098"
+       height="40.878819"
+       x="174.09741"
+       y="-352.97845"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#590018;fill-opacity:0.912863;stroke:#000000;stroke-width:0.755906"
+       id="rect4"
+       width="106.11098"
+       height="40.878819"
+       x="174.09741"
+       y="-183.08498"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#590018;fill-opacity:0.912863;stroke:#000000;stroke-width:0.755906"
+       id="rect5"
+       width="34.966545"
+       height="66.68177"
+       x="208.56685"
+       y="307.31598" />
+    <rect
+       style="fill:#590018;fill-opacity:0.912863;stroke:#000000;stroke-width:0.755906"
+       id="rect6"
+       width="34.966545"
+       height="66.68177"
+       x="253.59261"
+       y="307.31598" />
+  </g>
+</svg>

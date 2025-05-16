@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/3.table.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/4.form.css">
+    <link rel="stylesheet" href="css/5-menues.css">
+    <link rel="stylesheet" href="css/6-iconmoon.css">
+    <link rel="stylesheet" href="css/7-kvikun.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="toplabel">&#9776;</label>
+    <section class="topmenu">
+      <a href="../verkefni-6/"><span class="icon-home"></span> Forsíðan</a>
+      <a href="#schedule"><span class="icon-calendar"></span> Dagskrá</a>
+      <a href="bílavöru.html"><span class="icon-meter"></span> Skoða bíla</a>
+      <a href="fyrirtækið.html"><span class="icon-users"></span> Fyrirtækið</a>
+      <a href="#login"><span class="icon-users"></span> Innskráning</a>
+      <div class="socialbuttons">
+          <a href="#"><span class="icon-phone"></span></a>
+          <a href="#"><span class="icon-location2"></span> </a>
+          <a href="#"><span class="icon-qrcode"></span> </a>
+          <a href="#"><span class="icon-cloud-upload"></span> </a>
+      </div>
+    </section>
+  </nav>
+  <header class="col-2 container">
+      <section>
+        <!--<img src="images/alien-svgrepo-com.svg" class="svgLogo">-->
+        <div class="iconLogo lightSpeedInRight">
+          <span class="icon-drawing_takn-1"></span>
+        </div>
+        <h1>Buy proper cars.</h1>
+      </section>
+      <section>
+        <br>
+        <h1>Welcome to AeroVibe Motors</h1>
+  <p>Your trusted partner in finding the perfect car. We founded our company with a passion for quality and customer satisfaction, specializing in offering a wide selection of new and used cars to suit every lifestyle and budget. Our passionate staff is dedicated to making your car selection process as easy and enjoyable as possible. We emphasize honesty and transparency in all our dealings. Whether you're looking for your first car or upgrading to a luxury vehicle, we are here to help you drive away with satisfaction and confidence. Thank you for choosing us as your trusted car dealership!</p>
+      </section>
+  </header>
+  <!--banner-->
+  <div class="bannerBg">
+    <section class="col-3 container">
+      <div class="value">
+        <h1><span class="icon-meter"></span></h1>
+        <h3>Test Drive</h3>
+      </div>
+      <div class="value">
+        <h1><span class="icon-wrench"></span></h1>
+        <h3>Service</h3>
+      </div>
+      <div class="value">
+        <h1><span class="icon-key"></span></h1>
+        <h3>Trade in</h3>
+      </div>
+    </section>
+  </div>
+  <h1 class="center marg_b">See What Our Customers Think</h1>
+  <div id="slideset2" class="slide">
+    <div>
+      <h1>Best Car Company ever</h1>
+      <p>John Woods</p>
+    </div>
+    <div>
+      <h1>5/5 stars the service is amazing</h1>
+      <p>Sarah </p>
+    </div>
+    <div>
+      <h1>Good Cars for Sale Here</h1>
+      <p>Billy</p>
+    </div>
+  </div>
+  <main class="container">
+    <section>
+        <h1>Get the Car You Want</h1>
+        <div id="slideset6">
+            <section>
+              <img src="images/Subaru-blue.png">
+            </section>
+            <section>
+              <img src="images/Sunshine_Kia_Car.png">
+            </section>
+            <section>
+              <img src="images/Sedan_hybrid.png">
+            </section>
+            <section>
+              <img src="images/blackcar.jpg">
+            </section>
+          </div>
+        </section>
+    <section class="col-2"> 
+      <article>
+        <h5>Welcome to our car dealership – your destination for finding your next vehicle. We offer a wide selection of new and used cars, customized solutions, and excellent service to meet the needs of all our customers.</h5>
+        <p>We are committed to providing reliable and trustworthy service. Whether you're searching for your first car or looking to expand your fleet, we're here to assist you with expert advice, inspections, and test drives.
+        <blockquote>Customer satisfaction is our top priority. Our goal is to help you find the right car in a safe and affordable way.</blockquote></p>
+        <p>Our dealership offers competitive pricing, dependable service, and a diverse selection of vehicles. We aim to make your buying experience simple and enjoyable for everyone.</p>
+       <!-- <figure>
+          <img src="https://picsum.photos/600/400">
+          <figcaption>Mynd sótt af Picsum.photos af handahófi <em>(random)</em></figcaption>
+        </figure>-->
+      </article>
+        <form action="takk.html" method="get">
+          <fieldset class="account-info">
+            <legend>Order List</legend>
+            <p class="form-2">
+            <label>
+              First Name:
+              <input type="text" name="fornafn" required placeholder="First name">
+            </label>
+            <label>
+              Last Name:
+              <input type="text" name="eftirnafn" required placeholder="Last name">
+            </label>
+            <label>
+            </p>
+              <p>
+              Gender: 
+              <label>
+              <input type="radio" name="kyn" value="Karl" required> Male |
+            </label>
+            <label>
+              <input type="radio" name="kyn" value="Kona" required> Female |
+            </label>
+            <label>
+              <input type="radio" name="kyn" value="Eitthvað" required> They 
+            </label>
+            </p>
+            <p class="form-2">
+              <label>
+                Email:
+                <input type="text" name="email" required placeholder="Email">
+              </label>
+              <label>
+                Phone Number:
+                <input type="tel" name="Telephone" required placeholder="Telephone">
+              </label>
+           
+          </p>
+          
+        <section class="form-3">
+          <p>
+            List of Cars: <br>
+            <select name="vara" required>
+              <option>Toyota</option>
+              <option>Suzuki</option>
+              <option>Tesla</option>
+              <option>Mercedes</option>
+            </select>
+          </p>
+          <p>
+            Timing: <br>
+            <input type="time" name="timestamp" required>
+          </p>
+          <p>
+            Date: <br>
+            <input type="date" name="datestamp" required>
+          </p>
+        </section>
+        <p>
+          <textarea name="message" id="#" rows="5" placeholder="Write message here ..."></textarea>
+        </p>
+        <p class="form-2">
+        <label>
+          <input type="checkbox" name="signToPostList" onclick="myFunction()"> See more options in input select
+        </label>
+        <select value="val" id="val" disabled>
+          <option name="nr1" id="">Option 1</option>
+          <option name="nr2" id="">Option 2</option>
+          <option name="nr3" id="">Option 3</option>
+          <option name="nr4" id="">Option 4</option>
+        </select>
+      </p>
+        <div class="center">
+        <p>
+            <input type="submit" name="submit" value="Buy Car" class="animate__shakeY">
+        </p>
+      </div>
+          </fieldset>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer class="col-3 container">
+    <nav>
+      <ul>
+        <dt>Our Brands</dt>
+        <li><a href="#">Ford</a></li>
+        <li><a href="#">Subaru</a></li>
+        <li><a href="#">Tesla</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li>Buyer Tools</li>
+        <li>Finance</li>
+        <li>New Cars</li>
+        <li>Used Cars</li>
+      </ul>
+    </nav>
+    <dl>              <!--Description list -->
+      <dt>Company</dt>
+        <dd>--&#10095; About Us</dd>
+      <dt>Email</dt>
+        <dd>--&#10095; felixjo2424@gmail.com</dd>
+      <dt>Terms of Service</dt>
+    </dl>
+  </footer>
+    <p class="center">Athugið að þetta er ekki alvöru bílavöru síða og ekki er hægt að kaupa bíla</p>
+    <div id="login" class="overlay">
+      <form action="takk.html" method="get" class="popup">
+        <fieldset>
+          <legend>Innskráning</legend>
+        <a class="close" href="#">&times;</a>
+        Nafn: <input type="text" name="nafn">
+        Lykilorð:
+        <input type="password" name="psw">
+       <p class="center">
+        <input type="submit" value="Innskráning">
+       </p> 
+      </fieldset>
+      </form>
+    </div>
+      <input type="checkbox" id="clicked">
+      <label for="clicked" class="bottomlabel"><span class="icon-bubbles2"></span></label>
+      <section class="bottommenu">
+          <form action="takk.html" method="get" class="popup2">
+            <fieldset>
+              <legend>Spjallbox</legend>
+            Nafn: 
+            <input type="text" name="nafn">
+            Tölvupóstur: 
+            <input type="email" name="tölvupóstur">
+            Skilaboð: 
+            <textarea name="message" rows="5" placeholder="Message"></textarea>
+           <div class="center pad">
+            <input type="submit" value="Senda">
+           </div>
+          
+          </fieldset>
+          </form>
+      </section>
+    <script>
+      function myFunction() {
+        document.getElementById("val").disabled = false;
+      }
+      </script>
+      <!--
+      <div class="intro welcome">
+        <span id="splash-overlay" class="splash"></span>
+        <span id="welcome" class="z-depth-4"></span>
+      </div>-->
+</body>
+</html>

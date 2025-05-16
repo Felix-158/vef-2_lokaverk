@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/3.table.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/4.form.css">
+    <link rel="stylesheet" href="css/5-menues.css">
+    <link rel="stylesheet" href="css/6-iconmoon.css">
+    <link rel="stylesheet" href="css/7-kvikun.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="toplabel">&#9776;</label>
+    <section class="topmenu">
+      <a href="../verkefni-6/"><span class="icon-home"></span> Forsíðan</a>
+      <a href="#schedule"><span class="icon-calendar"></span> Dagskrá</a>
+      <a href="bílavöru.html"><span class="icon-meter"></span> Skoða bíla</a>
+      <a href="fyrirtækið.html"><span class="icon-users"></span> Fyrirtækið</a>
+      <a href="#login"><span class="icon-users"></span> Innskráning</a>
+      <div class="socialbuttons">
+          <a href="#"><span class="icon-phone"></span></a>
+          <a href="#"><span class="icon-location2"></span> </a>
+          <a href="#"><span class="icon-qrcode"></span> </a>
+          <a href="#"><span class="icon-cloud-upload"></span> </a>
+      </div>
+    </section>
+  </nav>
+  <header>
+      <section>
+        <!--<img src="images/alien-svgrepo-com.svg" class="svgLogo">-->
+        <div class="iconLogo lightSpeedInRight">
+          <span class="icon-drawing_takn-1"></span>
+        </div>
+        <h1>Buy proper cars.</h1>
+      </section>
+  </header>
+          <main class="container">
+            <h1 class="center">Featured Cars</h1>
+            <section class="col-2 rammi">
+                <div>
+                  <h2>Ford Van</h2>
+                  <img src="images/Ford_van.png">
+                  <a href="bílagögn.html" class="animate__shakeX button">View details</a>
+                </div> 
+              <div>
+                <h2>Subaru Blue</h2>
+                <img src="images/Subaru-blue.png">   
+                <a href="bílagögn.html"></a><button class="animate__shakeX">View details</button>        
+              </div>          
+            <div>
+              <h2>Sedan Hybrid</h2>
+              <img src="images/Sedan_hybrid.png">
+              <a href="bílagögn.html"></a><button class="animate__shakeX">View details</button>
+            </div>
+          <div>
+            <h2>Volkswagen</h2>
+              <img src="images/Volkswagen-red.png">
+              <a href="bílagögn.html"></a><button class="animate__shakeX">View details</button>
+            </div>
+      </section>
+      <section class="container">
+        <table>
+          <caption>Buy Cars</caption>
+          <thead>
+              <tr>
+                  <th>Car</th>
+                  <th>When</th>
+                  <th>Buy Car</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+
+                  <td data-label="Car">Tesla</td>
+                  <td data-label="When">12/05 kl. 21.00</td>
+                  <td data-label="Buy tickets"><button class="animate__shakeX">Order now!</button></td>
+              </tr>
+              <tr>
+                  <td data-label="Car">Toyota</td>
+                  <td data-label="When">12/05 kl. 21.00</td>
+                  <td data-label="Buy tickets"><button class="animate__shakeX">Order now!</button></td>
+              </tr>
+              <tr>
+
+                  <td data-label="Car">Suzuki</td>
+                  <td data-label="When">12/05 kl. 21.00</td>
+                  <td data-label="Buy tickets"><button class="animate__shakeX">Order now!</button></td>
+              </tr>
+              <tr>
+
+                  <td data-label="Car">Mercedes</td>
+                  <td data-label="When">12/05 kl. 21.00</td>
+                  <td data-label="Buy tickets"><button class="animate__shakeX">Order now!</button></td>
+              </tr>
+          </tbody>
+          <tfoot>
+              <tr>
+                  <th colspan="4">Discount Week</th>
+              </tr>
+          </tfoot>
+      </table>
+      </section>
+</body>
+</html>

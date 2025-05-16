@@ -1,0 +1,79 @@
+/* rammi til að sýna tag */
+.rammi div {
+    border: 1px dotted var(--nc-bg-3);
+    padding: .5rem;
+    margin: .5rem;
+    text-align: center;
+}
+/* grid layout */
+.form-2,
+.form-3,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.container {
+    padding: 0 .5rem;
+}
+
+/* viðmið */
+
+@media screen and (min-width: 48rem) {
+    .col-2,
+    .col-4 {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .col-3,
+    .col-6 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    .col-5 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+}
+@media screen and (min-width: 60rem) {
+    .form-2 {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .form-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    .col-2,.col-3, .col-4,.col-5,.col-6 {
+            gap: 2rem;
+            row-gap: 1rem;
+    }
+    .col-4 {
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+    }
+    .col-3 {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .col-6 {
+        grid-template-columns: repeat(6,1fr);
+    }
+    .container {
+        padding: 0 1rem;
+    }
+}
+@media screen and (min-width: 80rem) {
+    .container {
+        max-width: 80rem;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 100rem) {
+    .container {
+        padding: 0;
+    }
+}

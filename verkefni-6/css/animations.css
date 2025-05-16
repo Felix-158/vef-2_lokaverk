@@ -1,0 +1,156 @@
+
+
+
+#slideset2  {
+    text-align: center;
+}
+.slide {
+    background: var(--darkblue-bg);
+    bottom: 1rem;
+}
+
+#slideset2 {
+    height: 10em; 
+    position: relative;
+    overflow: hidden;
+}
+#slideset2 div {
+    width: 100%;
+    overflow: hidden;
+}
+
+#slideset2 > * {
+    
+    position: absolute;
+    opacity: 0;
+    left: 100; 
+    animation: 12s autoplay2 infinite
+}
+@keyframes autoplay2 {
+    0% {
+        top: 100%
+    }
+      4% {
+        top: 0%;
+        opacity: 1;
+    }
+      24% {
+        top: 0%;
+        opacity: 1;
+    }
+      28% {
+        top: -100%;
+        opacity: 0;
+        
+    }
+      100% {
+        top: -100%;
+        
+    }
+  }
+
+#slideset2 > *:nth-child(1) {animation-delay: 0s}
+#slideset2 > *:nth-child(2) {animation-delay: 4s}
+#slideset2 > *:nth-child(3) {animation-delay: 8s}
+
+
+
+
+@media screen and (min-width:60rem) {
+    /*---  slideset 2 in-out  ---*/
+    #slideset2  {
+        text-align: center;
+    }
+    #slideset2 {
+        height: 7rem;
+        position: relative;
+        overflow: hidden /*ath*/
+    }
+    
+    
+    #slideset2 > * {
+        position: absolute; 
+        top: 0; 
+        left: 100%;
+        opacity: 0;
+        animation: 15s autoplay2 infinite ease-in-out
+    }
+    
+    
+    @keyframes autoplay2 {
+      0% {
+        left: 100%
+    }
+      4% {
+        left: 0%;
+        opacity: 1;
+    }
+      33.33% {
+        left: 0%
+    }
+      37.33% {
+        left: -100%
+    }
+      100% {
+        left: -100%
+    }
+    }
+    
+    
+    #slideset2 > *:nth-child(1) {animation-delay: 0s}
+    #slideset2 > *:nth-child(2) {animation-delay: 5s}
+    #slideset2 > *:nth-child(3) {animation-delay: 10s}
+}
+
+
+
+#slideset6 > * {
+  animation: 20s autoplay6 infinite linear;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  opacity: 0.0;
+}
+
+
+@keyframes autoplay6 {
+  0% {opacity: 0.0}
+  4% {opacity: 1.0}
+  24% {opacity: 1.0}
+  28% {opacity: 0.0}
+  100% {opacity: 0.0}
+}
+
+
+
+#slideset6 > *:nth-child(1) {animation-delay: 0s; }
+#slideset6 > *:nth-child(2) {animation-delay: 5s; }
+#slideset6 > *:nth-child(3) {animation-delay: 10s; }
+#slideset6 > *:nth-child(4) {animation-delay: 15s; }
+
+
+#slideset6 {
+  position: relative;
+  height: 18rem;
+}
+
+
+@media screen and (min-width:22rem) {
+    #slideset6 {
+      height: 22rem;
+    }
+}
+
+@media screen and (min-width:48rem) {
+  #slideset6 {
+    height: 23rem;
+  }
+}
+
+
+@media screen and (min-width:80rem) {
+    #slideset6 {
+      position: relative;
+      height: 29rem;
+    }
+}
